@@ -117,3 +117,705 @@ body{
     margin-left: 2px;
   
 }
+/* Tech - Rack */
+
+.parent .profile-Rack{
+    position: absolute;
+    width: 133px;
+    height: 99px;
+    left: 470px;
+    top: 400px;
+}
+
+.profile-Rack{
+    position: relative;
+    width: 100px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.Tech-Rack {
+    position: relative;
+    width: 147px;
+    height: 117px;
+    margin-top: -20px;
+}
+
+.b1-Rack {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+ .profile-Rack:hover {
+    transform: scale(1.2);
+    position: absolute;
+    z-index: 3;
+ }
+
+ .content-Rack {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 75px;
+    padding: 20px;
+    min-width: 350px;
+    height: 225px;
+    border-style: solid;
+    background-color: #f9f9f9;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    top: -70px;
+    left: 160%;
+
+ }
+
+ .content-Rack .header-Rack {
+    display: flex;
+    align-items: center;
+}
+
+.content-Rack .header-Rack img {
+    grid-column: 1/2;
+    width: 100px;
+    height: 80px;
+    object-fit: fill;
+}
+
+/* TEXT */
+ 
+.content-Rack .header-Rack .infos-Rack {
+    margin-left: 1em;
+}
+
+.content-Rack .header-Rack .infos-Rack .name-Rack {
+    font-size: 1.25em;
+    color: #FF9D5C;
+    -webkit-text-stroke: 0.1px #000000;
+    letter-spacing: 1px;
+    font-size: 600;
+}
+
+.content-Rack .header-Rack .infos-Rack .title-Rack {
+    font-size: 0.9em;
+    color: #FF9D5C;
+    -webkit-text-stroke: 0.7px #000000;
+    font-weight: 500;
+}
+
+.content-Rack .body-Rack {
+    padding: -1em;
+    text-align: left;
+    color: #FF9D5C;
+    -webkit-text-stroke: 0.7px #000000;
+}
+
+.content-Rack .body-Rack p {
+    font-size: 1.95em;
+    color: #272727;
+    
+}
+
+.profile-Rack:hover .content-Rack {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-15%) translateY(0px);
+}
+ 
+.parent .profile-Rack{
+    position: absolute;
+    width: 133px;
+    height: 99px;
+    left: 550px;
+    top: 450px;
+}
+
+.profile-Rack{
+    position: relative;
+    width: 100px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.Tech-Rack {
+    position: relative;
+    width: 147px;
+    height: 117px;
+    margin-top: -20px;
+}
+
+/* Tech- TV */
+
+.parent .profile-TV{
+    position: absolute;
+
+    left: 249px;
+    top: 200px;
+}
+        
+.profile-TV{
+    position: relative;
+    width: 100px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+        
+.Tech-TV {
+    position: relative;
+    width: 220px;
+    height: 130px;
+    margin-top: 35px;
+    left: 40px;
+}
+        
+.b1-TV {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+ 
+.profile-TV:hover {
+    transform: scale(1.2);
+    position: absolute;
+    z-index: 3;
+ }
+
+ .content-TV {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 75px;
+    padding: 20px;
+    min-width: 350px;
+    height: 225px;
+    border-style: solid;
+    background-color: #f9f9f9;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    top: -70px;
+    left: -215%;
+
+ }
+        
+.content-TV .header-TV {
+    display: flex;
+    align-items: center;
+}
+        
+.content-TV .header-TV img {
+    grid-column: 1/2;
+    width: 100px;
+    height: 80px;
+    object-fit: fill;
+}
+        
+/* TEXT */
+         
+.content-TV .header-TV .infos-TV {
+    margin-left: 1em;
+}
+        
+.content-TV .header-TV .infos-TV .name-TV {
+    font-size: 1.25em;
+    color: #FF9D5C;
+    -webkit-text-stroke: 0.1px #000000;
+    letter-spacing: 1px;
+     font-size: 600;
+}
+        
+.content-TV .header-TV .infos-TV .title-TV {
+    font-size: 0.9em;
+    color: #FF9D5C;
+    -webkit-text-stroke: 0.7px #000000;
+    font-weight: 500;
+}
+        
+.content-TV .body-TV {
+    padding: -1em;
+    text-align: left;
+    color: #FF9D5C;
+    -webkit-text-stroke: 0.7px #000000;
+}
+        
+.content-TV .body-TV p {
+     font-size: 1.95em;
+    color: #272727;    
+}
+        
+.profile-TV:hover .content-TV {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(140%) translateY(105px);
+}
+
+/* Tech - Computer */
+
+.parent .profile-Computer{
+    position: absolute;
+    left: 10px;
+    top: 460px;
+}
+                
+.profile-Computer{
+    position: relative;
+    width: 100px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+                
+.Tech-Computer {
+    z-index: 1;
+    position: relative;
+    width: 183px;
+    height: 180px;
+    margin-top: -100px;
+    margin-left: 105px;
+}
+                
+.b1-Computer {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+                
+.profile-Computer:hover {
+    transform: scale(1.2);
+    position: absolute;
+    z-index: 3;
+}
+                
+.content-Computer {
+    position: absolute;
+    z-index: 3;
+    bottom: 75px;
+    padding: 20px;
+    min-width: 350px;
+    height: 225px;
+    border-style: solid;
+    background-color: #f9f9f9;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    right: -50px;
+    top: -235px;
+}
+
+                
+.content-Computer .header-Computer {
+    display: flex;
+    align-items: center;
+}
+                
+.content-Computer .header-Computer img {
+    grid-column: 1/2;
+    width: 100px;
+    height: 80px;
+    object-fit: fill;
+}
+                
+/* TEXT */
+                 
+.content-Computer .header-Computer .infos-Computer {
+    margin-left: 1em;
+}
+                
+.content-Computer .header-Computer .infos-Computer .name-Computer {
+    font-size: 1.25em;
+    color: #FF9D5C;
+    -webkit-text-stroke: 0.1px #000000;
+    letter-spacing: 1px;
+    font-size: 600;
+}
+                
+.content-Computer .header-Computer .infos-Computer .title-Computer {
+    font-size: 0.9em;
+    color: #FF9D5C;
+    -webkit-text-stroke: 0.7px #000000;
+    font-weight: 500;
+}
+                
+.content-Computer .body-Computer {
+    padding: -1em;
+    text-align:left;
+    color: #FF9D5C;
+    -webkit-text-stroke: 0.7px #000000;
+}
+                
+.content-Computer .body-Computer p {
+     font-size: 1.95em;
+    color: #272727;    
+}
+                
+.profile-Computer:hover .content-Computer {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-15%) translateY(0px);
+}
+
+  /* Tech -Table */
+
+        .parent .profile-Table{
+            position: absolute;
+            left: 10px;
+            top: 460px;
+        }
+                        
+        .profile-Table{
+            position: relative;
+            width: 100px;
+            height: 80px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+        }
+                        
+        .Tech-Table {
+            position: relative;
+            width: 350px;
+            height: 380px;
+            margin-top: -90px;
+        }
+                        
+        .b1-Table {
+            background-color: transparent;
+            background-repeat: no-repeat;
+            border: none;
+        }
+                        
+        .content-Table {
+            position: absolute;
+            z-index: 3;
+            bottom: 75px;
+            padding: 20px;
+            min-width: 350px;
+            height: 225px;
+            border-style: solid;
+            background-color: #f9f9f9;
+            visibility: hidden;
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: 0.5s;
+            right: -50px;
+            top: -235px;
+        }
+        
+                        
+        .content-Table .header-Table {
+            display: flex;
+            align-items: center;
+        }
+                        
+        .content-Table .header-Table img {
+            grid-column: 1/2;
+            width: 100px;
+            height: 80px;
+            object-fit: fill;
+        }
+
+/* Tech - CCTV */
+
+.parent .profile-CCTV{
+    position: absolute;
+    left: 130px;
+    top: 60px; 
+}
+
+.profile-CCTV{
+    position: relative;
+    width: 100px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+                
+.Tech-CCTV {
+    position: relative;
+    width: 115px;
+    height: 110px;
+    margin-top: 5px;
+}
+                
+.b1-CCTV {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+                
+.profile-CCTV:hover {
+    transform: scale(1.2);
+    position: absolute;
+    z-index: 3;
+}
+                
+.content-CCTV {
+    position: absolute;
+    z-index: 3;
+    bottom: 75px;
+    padding: 20px;
+    min-width: 350px;
+    height: 260px;
+    border-style: solid;
+    background-color: #f9f9f9;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.content-CCTV, .profile-CCTV:hover {
+    top: -5px;
+    right: 45%;
+}
+                
+.content-CCTV .header-CCTV {
+    display: flex;
+    align-items: center;
+}
+                
+.content-CCTV .header-CCTV img {
+    grid-column: 1/2;
+    width: 100px;
+    height: 80px;
+    object-fit: fill;
+}
+                
+/* TEXT */
+                 
+.content-CCTV .header-CCTV .infos-CCTV {
+    margin-left: 1em;
+}
+                
+.content-CCTV .header-CCTV .infos-CCTV .name-CCTV {
+    font-size: 1.25em;
+    color: #FF9D5C;
+    -webkit-text-stroke: 0.1px #000000;
+    letter-spacing: 1px;
+    font-size: 600;
+}
+                
+.content-CCTV .header-CCTV .infos-CCTV .title-CCTV {
+    font-size: 0.9em;
+    color: #FF9D5C;
+    -webkit-text-stroke: 0.7px #000000;
+    font-weight: 500;
+}
+                
+.content-CCTV .body-CCTV {
+    padding: -1em;
+    text-align: left;
+    color: #FF9D5C;
+    -webkit-text-stroke: 0.7px #000000;
+}
+                
+.content-CCTV .body-CCTV p {
+     font-size: 1.95em;
+    color: #272727;    
+}
+                
+.profile-CCTV:hover .content-CCTV {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-15%) translateY(20px);
+}
+
+/* Tech - Router */
+
+.parent .profile-Router{
+    position: absolute;
+    left: 560px;
+    top: 60px;
+    
+}
+                
+.profile-Router{
+    position: relative;
+    width: 100px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+                
+.Tech-Router {
+    z-index: 1;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-top: -20px;
+}
+                
+.b1-Router {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+                
+.profile-Router:hover {
+    transform: scale(1.2);
+    position: absolute;
+    z-index: 3;
+}
+                
+.content-Router {
+    position: absolute;
+    z-index: 3;
+    bottom: 75px;
+    padding: 20px;
+    min-width: 350px;
+    height: 225px;
+    border-style: solid;
+    background-color: #f9f9f9;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    left: 115%;
+    top: 150px;
+}
+                
+.content-Router .header-Router {
+    display: flex;
+    align-items: center;
+}
+                
+.content-Router .header-Router img {
+    grid-column: 1/2;
+    width: 60px;
+    height: 80px;
+    object-fit: fill;
+}
+                
+/* TEXT */
+                 
+.content-Router .header-Router .infos-Router {
+    margin-left: 1em;
+}
+                
+.content-Router .header-Router .infos-Router .name-Router {
+    font-size: 1.25em;
+    color: #FF9D5C;
+    -webkit-text-stroke: 0.1px #000000;
+    letter-spacing: 1px;
+    font-size: 600;
+}
+                
+.content-Router .header-Router .infos-Router .title-Router {
+    font-size: 0.9em;
+    color: #FF9D5C;
+    -webkit-text-stroke: 0.7px #000000;
+    font-weight: 500;
+}
+                
+.content-Router .body-Router {
+    padding: -1em;
+    text-align: left;
+    color: #FF9D5C;
+    -webkit-text-stroke: 0.7px #000000;
+}
+                
+.content-Router .body-Router p {
+     font-size: 1.95em;
+    color: #272727;    
+}
+
+.profile-Router:hover .content-Router {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(4%) translateY(-140px);
+}
+                
+/* Tech -Shelf */
+
+.parent .profile-Shelf{
+    position: absolute;
+    left: 515px;
+    top: 140px;
+}
+                
+.profile-Shelf{
+    position: relative;
+    width: 100px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+                
+.Tech-Shelf {
+    position: relative;
+    width: 190px;
+    height: 125px;
+    margin-top: -20px;
+}
+                
+.b1-Shelf {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+                
+.content-Shelf {
+    position: absolute;
+    z-index: 3;
+    bottom: 75px;
+    padding: 20px;
+    min-width: 350px;
+    height: 225px;
+    border-style: solid;
+    background-color: #f9f9f9;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    right: -50px;
+    top: -235px;
+}
+
+                
+.content-Shelf .header-Shelf {
+    display: flex;
+    align-items: center;
+}
+                
+.content-Shelf .header-Shelf img {
+    grid-column: 1/2;
+    width: 100px;
+    height: 80px;
+    object-fit: fill;
+}
