@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 0;
+    font-family: Crowd Funded;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+body{
+    overflow: hidden;
+    background-color: #FFCBA4;
+    background-image: url(cloud.gif);
+    background-repeat:inherit;
+    
+}
